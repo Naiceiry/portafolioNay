@@ -2,19 +2,21 @@
   padding: 1px;
   margin: 1px;
   box-sizing: border-box;
+  
 }
 html{ 
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    width: 50%;
+    width: 100%;
     margin:auto;
+    
 }
 
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #08080800;
+  background-color: #080808e0;
   position: fixed;
   margin: auto;
   background-repeat: no-repeat;
@@ -23,15 +25,27 @@ html{
 .containergeneral{
     width: 100%;
     margin: auto;
-    z-index: 100;
+   
+}
+.contenedorsecciones{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
 }
 
-.containergeneral .anavbar {
+.containnavbar{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.containnavbar .anavbar {
   justify-content: center;
 }
-.containergeneral .nav-item {
+.containnavbar .nav-item {
   justify-content: center;
-  margin: 3%;
+  margin: 0 auto;
   width: 200%;
   text-align: center;
 }
@@ -57,7 +71,7 @@ html{
  
   height: 100%;  
   margin: auto;
-  padding-top: 6%;
+  padding-top: 8%;
 }
 .contenedor1{
     
