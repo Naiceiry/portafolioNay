@@ -74,7 +74,6 @@ html{
   padding-top: 8%;
 }
 .contenedor1{
-    
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -82,6 +81,7 @@ html{
     margin-top: 5%;
     margin-bottom: 5%;
     margin: auto;
+    width: 100;
 }
 .minicontent{
     height: 80%;
@@ -147,7 +147,10 @@ html{
   font-family: 'Lobster', cursive;
   font-size: 300%;
 }
-
+.front{
+   border-right: 2px solid rgb(3, 3, 3); */
+    justify-content: center;
+}
 .secciones h2{
     width: 100%;
     background-color: rgba(248, 248, 248, 0.329);
@@ -167,19 +170,22 @@ html{
 
 .imgintro{
     border-radius: 70%;
-   
-    height: 70%;
+    height: 80%;
+    width: 80%;
 }
 .photo{
-    margin-right: 2%;
+    margin-left:28%;
     margin-top: 7%;
+    margin-right: 0%;
     margin-bottom: 5%;
-    text-align: end;
+   justify-content:end
 }
 .name{
     margin-top: 15%;
     margin-bottom: 7%;
     text-align: left;
+    justify-content: left;
+    margin-left: 0%;
 }
 
 #title{
@@ -215,14 +221,21 @@ background-color: rgba(0, 0, 0, 0.459);}
 
  .minicontent{
     height: 80%;
-    width: 33.3%;
+    width: 60%;
     color:blue ;
+    justify-content: center;
 } 
   .minicontent div abbr .habilidades{
-    width: 20%;
-    height: 20%;
+    width: 17%;
+    height: 17%;
     margin: 1%;
 }
+.minicontent div abbr .dg{
+    width: 13%;
+    height: 13%;
+    margin: 1%;
+}
+
 .marketing{
     width: 100%;
     height:40%;
@@ -292,7 +305,7 @@ background-color: rgba(0, 0, 0, 0.459);}
     height:38%;
 }
 .desarrollop{
-    height: 50%;
+    height: 100%;
 }
 .modal-container{
     position: fixed;
@@ -370,9 +383,8 @@ background-color: rgba(0, 0, 0, 0.459);}
 .cta{
     display: inline-block;
     padding: 0% ;
-    width: 60%;
-    height: 60%;
-   
+    width: 100%;
+    height: 100%;
     text-align: center;
     text-decoration: none;
     color: #283773;
@@ -382,8 +394,8 @@ background-color: rgba(0, 0, 0, 0.459);}
 .ctag{
     display: inline-block;
     padding: 0% ;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     text-align: center;
     text-decoration: none;
     color: #283773;
@@ -392,9 +404,8 @@ background-color: rgba(0, 0, 0, 0.459);}
 .ctaa{
     display: inline-block;
     padding: 0% ;
-    width: 60%;
-    height: 60%;
-  
+    width: 100%;
+    height: 100%;
     text-align: center;
     text-decoration: none;
     color: #283773;
@@ -438,7 +449,8 @@ background-color: rgba(0, 0, 0, 0.459);}
 .botondescargar{
     margin-left: 44%;
     margin-right: 43%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 .contacto{
     width: 25%;
