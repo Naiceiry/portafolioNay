@@ -175,13 +175,13 @@ html{
 }
 .photo{
     margin-left:28%;
-    margin-top: 7%;
+    margin-top: 11%;
     margin-right: 0%;
     margin-bottom: 5%;
    justify-content:end
 }
 .name{
-    margin-top: 15%;
+    margin-top: 20%;
     margin-bottom: 7%;
     text-align: left;
     justify-content: left;
@@ -226,8 +226,8 @@ background-color: rgba(0, 0, 0, 0.459);}
     justify-content: center;
 } 
   .minicontent div abbr .habilidades{
-    width: 17%;
-    height: 17%;
+    width: 13%;
+    height: 1%;
     margin: 1%;
 }
 .minicontent div abbr .dg{
@@ -420,14 +420,14 @@ background-color: rgba(0, 0, 0, 0.459);}
 }
 .mark2{
     padding-top: 3%;
-    width: 25%;
-    height:25%;
+    width: 20%;
+    height:20%;
     float: left;
 }
 .mark1{
     padding-top: 3%;
-    width: 25%;
-    height:25%;
+    width: 20%;
+    height:20%;
     float: right;
 }
 .profesional{
