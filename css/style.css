@@ -40,17 +40,58 @@ html{
     z-index: 100;
 }
 
-.containnavbar .anavbar {
-  justify-content: center;
-   padding:2px 7px;
+nav {
+    background: #579fe4;
+    height: 80px;
+    width: 100%;
 }
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(14, 12, 12);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    /* display: none; */
+}
+/* #check{
+    display: none;
+} */
 /* .containnavbar .nav-item {
   justify-content: center;
   margin: 0 auto;
   width: 200%;
   text-align: center;
 } */
-nav ul{
+/* nav ul{
     float: right;
     margin-right: 20px;
 }
@@ -85,7 +126,7 @@ button .navbar-toggler{
     cursor: pointer;
     display: none;
 
-}
+} */
 
 .general{
   justify-content:center;
@@ -167,7 +208,7 @@ button .navbar-toggler{
 .js-count-particles{
   font-size: 1.8em;
 }
-.navbar{
+/* .navbar{
   margin: 0%;
   padding: 0%;
   width: 100%;
@@ -183,9 +224,9 @@ button .navbar-toggler{
 .navbar>a{
   font-family: 'Lobster', cursive;
   font-size: 300%;
-}
+} */
 .front{
-   border-right: 2px solid rgb(3, 3, 3); */
+   border-right: 2px solid rgb(3, 3, 3); 
     justify-content: center;
 }
 .secciones h2{
@@ -503,7 +544,7 @@ background-color: rgba(0, 0, 0, 0.459);}
     height: 40%;
 }
 @media (max-width: 952px){
-    .anavbar{
+    .enlace{
         padding-left: 20px;
     }
     nav ul li a{
@@ -511,7 +552,7 @@ background-color: rgba(0, 0, 0, 0.459);}
     }
 }
 @media (max-width: 858px){
-    .navbar-toggler{
+    .checkbtn{
         display: block;
     }
     ul{
