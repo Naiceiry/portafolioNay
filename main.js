@@ -69,3 +69,6 @@ window.addEventListener("click", function(e){
     }
    
 })
+document.getElementById("sm").onclick=function(){
+    document.getElementById("nav").style.display="none";
+}
