@@ -1,27 +1,18 @@
 *{
-  padding: 1;
-  margin: 1;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-html{ 
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    width: 100%;
-    margin:auto; 
-}
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #080808e0;
-  position: fixed;
-  margin: auto;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-.containergeneral{
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  html{ 
+      font-size: 18px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      width: 100%;
+      margin:auto; 
+  }
+  .containergeneral{
     width: 100%;
     margin: auto;
    
@@ -33,151 +24,44 @@ html{
     z-index: -1;
     background-color: rgb(255, 255, 255);
 }
-
-.containnavbar{
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
-nav {
-    background: #579fe4;
-    height: 80px;
-    width: 100%;
-}
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-
-}
-.logo{
-    height: 40px;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: rgb(14, 12, 12);
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-li a.active, li a:hover{
-    background: #000090;
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    /* display: none; */
-}
-/* #check{
-    display: none;
-} */
-/* .containnavbar .nav-item {
-  justify-content: center;
-  margin: 0 auto;
-  width: 200%;
-  text-align: center;
-} */
-/* nav ul{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: rgb(0, 0, 0) ;
-    font-size: 18px;
-    padding:7px 13 px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: none;
-}
-
-li a:active,  li a:hover
-{
-    background: #000090;
-    transition: .5s;
-    color: #fff;
-
-}
-button .navbar-toggler{
-    font-size: 30px;
-    color: black;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-
-} */
-
 .general{
-  justify-content:center;
-  margin: 0 auto;
-
-  text-align:justify;
-  height: 100%;
-}
-.secciones{
-  display: flex;
-  position: relative;
-  background: url(../../img/fondo_portafolio.jpg);
-  text-align: center;
-  align-content: center;
-  text-decoration-style: double;
-  color: white;
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-size: cover;
- 
-  height: 100%;  
-  margin: auto;
-  padding-top: 8%;
-}
-.contenedor1{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content:center;
+    margin: 0 auto;
+  
+    text-align:justify;
     height: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  }
+  .secciones{
+    display: flex;
+    position: relative;
+    background: url(../../img/fondo_portafolio.jpg);
+    text-align: center;
+    align-content: center;
+    text-decoration-style: double;
+    color: white;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    height: 100%;  
     margin: auto;
-    width: 100;
-}
-.minicontent{
-    height: 80%;
-    width: 53%;
-    color:blue ;
-}
-.icono{
-    width: 100%;
-    height: 3%;
-    float: right;
-    align-items:flex-end ;
-}
-.icono a img{
-    width: 100%;
-    height:100%;
-    float: right;
-}
-#title{
+    padding-top: 8%;
+  }
+  .contenedor1{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      height: 100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin: auto;
+      width: 100;
+  }
+  .minicontent{
+      height: 80%;
+      width: 53%;
+      color:blue ;
+  }
+  #title{
     width: 72%;
     background-color: rgba(248, 248, 248, 0.329);
     color: rgb(241, 241, 241);
@@ -188,65 +72,33 @@ button .navbar-toggler{
     color: rgb(241, 241, 241);
     border-radius: 50%
 }
-
-.count-particles{
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+.icono{
+    width: 100%;
+    height: 3%;
+    float: right;
+    align-items:flex-end ;
 }
-
-.js-count-particles{
-  font-size: 1.8em;
-}
-/* .navbar{
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-.navbar a img{
-  margin: 0%;
-  padding: 0%;
-  width: 18%;
-  height:15%;}
-
-.navbar>a{
-  font-family: 'Lobster', cursive;
-  font-size: 300%;
-} */
 .front{
-   border-right: 2px solid rgb(3, 3, 3); 
-    justify-content: center;
-}
-.secciones h2{
-    width: 100%;
-    background-color: rgba(248, 248, 248, 0.329);
-    color: rgb(241, 241, 241);
-}
-.secciones a{
-    width: 2%;
-    height: 105%;
-    background-color: rgba(248, 248, 248, 0.329);
-    color: rgb(241, 241, 241);
-}
-.secciones a img{
-    width: 100%;
-    background-color: rgba(248, 248, 248, 0.329);
-    color: rgb(241, 241, 241);
-}
-
-.imgintro{
+    border-right: 2px solid rgb(3, 3, 3); 
+     justify-content: center;
+ }
+ .secciones h2{
+     width: 100%;
+     background-color: rgba(248, 248, 248, 0.329);
+     color: rgb(241, 241, 241);
+ }
+ .secciones a{
+     width: 2%;
+     height: 105%;
+     background-color: rgba(248, 248, 248, 0.329);
+     color: rgb(241, 241, 241);
+ }
+ .secciones a img{
+     width: 100%;
+     background-color: rgba(248, 248, 248, 0.329);
+     color: rgb(241, 241, 241);
+ }
+ .imgintro{
     border-radius: 70%;
     height: 80%;
     width: 80%;
@@ -543,6 +395,108 @@ background-color: rgba(0, 0, 0, 0.459);}
     width: 40%;
     height: 40%;
 }
+.contenedorcontacto{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content:center;
+     margin-top: 5%;
+      margin-bottom: 10%;
+      margin-left: 15%;
+  }
+  .icono a img{
+    width: 100%;
+    height:100%;
+    float: right;
+}
+
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.8em;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #080808e0;
+    position: fixed;
+    margin: auto;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  nav {
+    background: #ffffff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+   
+}
+.enlace{
+    position: absolute;
+    padding: 0px 50px;
+}
+.logo{
+    height: 60px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(14, 12, 12);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a:active, li a:hover{
+    background: #000090;
+    transition: .5s;
+    color: #fff;
+}
+
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    line-height: 80px;
+    margin-right: -100px;
+    margin-left: 0%;
+    cursor: pointer;
+    display: none; 
+    margin-top: -1%;
+}
+.checkbtn img{
+    width: 20%;
+    height: 20%;
+    background: #13E8E9;
+    margin-top: 0%;
+}
+ #check{
+    display: none;
+} 
+
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -551,6 +505,7 @@ background-color: rgba(0, 0, 0, 0.459);}
         font-size: 16px;
     }
 }
+
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -581,14 +536,6 @@ background-color: rgba(0, 0, 0, 0.459);}
     #check:checked ~ul{
         left: 0;
     }
+    
+    
 }
-.contenedorcontacto{
-  width: 75%;
-  display: flex;
-  margin: auto;
-  justify-content:center;
-   margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-}
-
