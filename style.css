@@ -550,8 +550,5 @@ li a:active, li a:hover{
     }
     #check:checked ~ul{
         left: 0;
-    }  
-    #nav:checked ul{
-        left: -100;
-    }  
+    }   
 }
