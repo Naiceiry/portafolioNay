@@ -34,7 +34,7 @@
   .secciones{
     display: flex;
     position: relative;
-    background: url(../../img/fondo_portafolio.jpg);
+    background: url(img/fondo_portafolio.jpg);
     text-align: center;
     align-content: center;
     text-decoration-style: double;
