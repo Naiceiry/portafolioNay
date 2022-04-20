@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 2;
+    margin: 2;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -10,16 +10,19 @@
       font-family: 'Lato', sans-serif;
       font-weight: 400;
       width: 100%;
-      margin:0; 
+      margin:auto; 
   }
-  
+  .containergeneral{
+    width: 100%;
+    margin: auto;
+   
+}
 .contenedorsecciones{
-    width: 80%;
+    width: 70%;
     justify-content: center;
-    margin: 0;
+    margin: auto;
     z-index: -1;
     background-color: rgb(255, 255, 255);
-    margin-left: 80%;
 }
 .general{
     justify-content:center;
@@ -547,5 +550,8 @@ li a:active, li a:hover{
     }
     #check:checked ~ul{
         left: 0;
-    }   
+    }  
+    #nav:checked ul{
+        left: -100;
+    }  
 }
