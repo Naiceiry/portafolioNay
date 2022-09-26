@@ -1,13 +1,19 @@
 let cerrar=document.querySelectorAll(".close")[0];
 let cerrarG=document.querySelectorAll(".closeG")[0];
 let cerrarA=document.querySelectorAll(".closeA")[0];
+let cerrarjs=document.querySelectorAll(".closejs")[0];
+
 let abrir=document.querySelectorAll(".cta")[0];
 let abrirg=document.querySelectorAll(".ctag")[0];
 let abrira=document.querySelectorAll(".ctaa")[0];
+let abrirjs=document.querySelectorAll(".ctajs")[0];
+
+
 let modal=document.querySelectorAll(".modal")[0];
 let modalC=document.querySelectorAll(".modal-container")[0];
 let modalG=document.querySelectorAll(".modal-containerG")[0];
 let modalA=document.querySelectorAll(".modal-containerA")[0];
+let modaljs=document.querySelectorAll(".modal-containerjs")[0];
 
 abrir.addEventListener("click", function(e){
     e.preventDefault();
@@ -27,6 +33,14 @@ abrira.addEventListener("click", function(e){
     modalA.style.visibility="visible";
     modal.classList.toggle("modal-close");
 });
+abrirjs.addEventListener("click", function(e){
+    e.preventDefault();
+    modaljs.style.opacity="1";
+    modaljs.style.visibility="visible";
+    modal.classList.toggle("modal-close");
+});
+
+
 cerrar.addEventListener("click", function(){
         modalC.style.opacity="0";
         modalC.style.visibility="hidden";
@@ -39,6 +53,12 @@ cerrarA.addEventListener("click", function(){
     modalA.style.opacity="0";
     modalA.style.visibility="hidden";
 })
+cerrarjs.addEventListener("click", function(){
+    modaljs.style.opacity="0";
+    modaljs.style.visibility="hidden";
+})
+
+
 window.addEventListener("click", function(e){
     this.console.log(e.target )
     if (e.target == modalC )  {
@@ -65,6 +85,17 @@ window.addEventListener("click", function(e){
         setTimeout(function() {
             modalG.style.opacity="0";
             modalG.style.visibility="hidden";
+        }, 100)
+    }
+   
+})
+
+window.addEventListener("click", function(e){
+    this.console.log(e.target )
+    if (e.target == modaljs )  {
+        setTimeout(function() {
+            modaljs.style.opacity="0";
+            modaljs.style.visibility="hidden";
         }, 100)
     }
    

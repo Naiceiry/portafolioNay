@@ -5,6 +5,13 @@
     text-decoration: none;
     list-style: none;
 }
+html {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: auto;
+}
 
 .front {
     border: #000022;
@@ -20,13 +27,7 @@
     margin: 0px 100px;
 }
 
-html {
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    width: 100%;
-    margin: auto;
-}
+
 
 .containergeneral {
     width: 100%;
@@ -159,12 +160,12 @@ html {
 }
 
 .contenedor {
-    width: 20%;
+    width: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: auto;
+    margin-left: 5%;
 }
 
 .contproyectos {
@@ -177,11 +178,10 @@ html {
 }
 
 .contproyectos1 {
-    width: 78%;
+    width: 100%;
     margin: auto;
     margin-bottom: 5%;
     height: 100%;
-    margin-top: 5%;
 }
 
 .minicontent {
@@ -344,22 +344,22 @@ html {
     align-items: center;
     opacity: 0;
 }
-
-.close {
-    color: rgb(3, 3, 3);
-    background-color: #fff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.modal-containerjs {
+    position: fixed;
+    visibility: hidden;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
-.closeG {
-    color: rgb(3, 3, 3);
-    background-color: #fff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
+
 
 .cta {
     display: inline-block;
@@ -393,8 +393,40 @@ html {
     color: #283773;
     background: #fff;
 }
+.ctajs {
+    display: inline-block;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #283773;
+    background: #fff;
+}
+
+.close {
+    color: rgb(3, 3, 3);
+    background-color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
 .closeA {
+    color: rgb(3, 3, 3);
+    background-color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeG {
+    color: rgb(3, 3, 3);
+    background-color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closejs {
     color: rgb(3, 3, 3);
     background-color: #fff;
     float: right;
@@ -419,15 +451,15 @@ html {
 .profesional {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     height: 100%;
     margin: auto;
     margin-bottom: 5%;
 }
 
 .profesional img {
-    width: 35%;
-    height: 28%;
+    width: 85%;
+    height: 40%;
     border: 6px solid rgb(241, 232, 99);
     border-radius: 5%;
 
@@ -444,14 +476,14 @@ html {
 }
 
 .contacto {
-    width: 25%;
+    width: 85%;
     height: 100%;
 
 }
 
 .contacto img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
 }
 
 .contenedorcontacto {
