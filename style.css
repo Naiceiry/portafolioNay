@@ -12,7 +12,7 @@ html {
     width: 100%;
     margin: auto;
 }
-
+/* Nuevo */
 .front {
     border: #000022;
     border-style: solid;
@@ -21,12 +21,17 @@ html {
     margin: 2%;
     text-align: center;    
 }
-
 .aidioma {
     position: absolute;
     margin: 0px 100px;
 }
-
+.habilidadesmp {
+    width: 20%;
+    height: 15%;
+    margin: 1%;
+    padding: 0%;
+}
+/* fin nuevo */
 
 
 .containergeneral {
@@ -34,7 +39,6 @@ html {
     margin: auto;
 
 }
-
 .contenedorsecciones {
     width: 70%;
     justify-content: center;
@@ -42,14 +46,12 @@ html {
     z-index: -1;
     background-color: rgb(255, 255, 255);
 }
-
 .general {
     justify-content: center;
     margin: 0 auto;
     text-align: justify;
     height: 100%;
 }
-
 .secciones {
     display: flex;
     position: relative;
@@ -65,7 +67,6 @@ html {
     margin: auto;
     padding-top: 8%;
 }
-
 .contenedor1 {
     display: flex;
     justify-content: center;
@@ -74,40 +75,30 @@ html {
     margin-top: 5%;
     margin-bottom: 5%;
     margin: auto;
-    width: 100;
+    width: 100%;
 }
-
 .minicontent {
     height: 80%;
     width: 53%;
     color: blue;
 }
-
 #title {
     width: 72%;
     background-color: rgba(248, 248, 248, 0.329);
     color: rgb(241, 241, 241);
 }
-
 .secciones a img {
     width: 80%;
     background-color: rgba(248, 248, 248, 0.329);
     color: rgb(241, 241, 241);
     border-radius: 50%
 }
-
 .icono {
     width: 100%;
     height: 3%;
     float: right;
     align-items: flex-end;
 }
-
-.front {
-    border-right: 2px solid rgb(3, 3, 3);
-    justify-content: center;
-}
-
 .secciones h2 {
     width: 100%;
     background-color: rgba(248, 248, 248, 0.329);
@@ -125,8 +116,7 @@ html {
     width: 100%;
     background-color: rgba(248, 248, 248, 0.329);
     color: rgb(241, 241, 241);
-}
-
+} 
 .imgintro {
     border-radius: 70%;
     height: 80%;
@@ -140,7 +130,14 @@ html {
     margin-bottom: 5%;
     justify-content: end
 }
-
+.contenedor {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
 .name {
     margin-top: 20%;
     margin-bottom: 7%;
@@ -148,24 +145,23 @@ html {
     justify-content: left;
     margin-left: 0%;
 }
-
 #title {
     background-color: rgba(0, 0, 0, 0.459);
 }
-
 .sobremi {
     padding: 02%;
     height: 100%;
     width: 60%;
 }
 
+
 .contenedor {
-    width: 200%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin-left: 5%;
+    margin: auto;
 }
 
 .contproyectos {
@@ -176,6 +172,14 @@ html {
     margin-bottom: 5%;
     height: 100%;
 }
+/* .contenedor {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 5%;
+} */
 
 .contproyectos1 {
     width: 100%;
@@ -183,7 +187,6 @@ html {
     margin-bottom: 5%;
     height: 100%;
 }
-
 .minicontent {
     height: 80%;
     width: 60%;
@@ -203,29 +206,21 @@ html {
     margin: 1%;
     padding: 0%;
 }
-.habilidadesmp {
-    width: 20%;
-    height: 15%;
-    margin: 1%;
-    padding: 0%;
-}
-.minicontent div abbr .dg {
+
+.dg {
     width: 13%;
     height: 13%;
     margin: 1%;
 }
-
 .marketing {
     width: 100%;
     height: 40%;
 }
-
 .minicontent h2 {
     margin-left: 15%;
     margin-right: 5%;
     margin-bottom: 5%;
 }
-
 .contenedor figure {
     position: relative;
     height: 250 px;
@@ -235,13 +230,11 @@ html {
     box-shadow: opx 15px 25px rgba(0, 0, 0, 0.50);
     cursor: pointer;
 }
-
 .contenedor figure img {
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
 }
-
 .contenedor figure .capa {
     position: absolute;
     top: 0%;
