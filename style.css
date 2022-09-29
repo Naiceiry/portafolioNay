@@ -5,6 +5,11 @@
     text-decoration: none;
     list-style: none;
 }
+.imgmodal {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+ }
 html {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -676,5 +681,10 @@ li a:hover {
 
     #nav:checked ul {
         left: -100;
+    }
+    .imgmodal{
+        width: 100%;
+        height: 80%;
+        margin: auto;
     }
 }
