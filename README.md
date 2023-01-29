@@ -10,5 +10,4 @@ https://docs.google.com/document/d/1hKkrBk3rfDHRJrPGpVvredYHW6VFt-7IAoAYH6PaBiw/
 web para usar fondos
 wengradients.com
 **************************************************************************************************
-kiara ver cv y portafolio
 

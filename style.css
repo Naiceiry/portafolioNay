@@ -1,15 +1,11 @@
+/*estilos generales de lapagina*/
 * {
-    padding: 2;
-    margin: 2;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-.imgmodal {
-     width: 100%;
-     height: 100%;
-     margin: auto;
- }
 html {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -17,7 +13,92 @@ html {
     width: 100%;
     margin: auto;
 }
-/* Nuevo */
+/*Navbar*/
+nav {
+    background:linear-gradient(to bottom right, rgb(200, 222, 236), white);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0%;
+}
+nav .enlace .logo {
+    position:relative;
+    padding: 0px 0px;
+    height: 100%;
+    margin: 0%;
+}
+nav .enlace .idioma {
+    position:relative;
+    height: 60%;
+    margin: auto;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+li a:active,
+li a:hover {
+    background: #000090;
+    transition: .5s;
+    color: #fff;
+}
+/*FIN DE NAV**/
+
+/*iNICIO FOOTER*/
+.contenedorcontacto {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: auto;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to bottom right, rgb(200, 222, 236), white);
+}
+/*FIN DE FOOTER**/
+.imgmodal{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 0%;
+ }
+.contacto {
+    width: 40%;
+    height: 100%;
+
+}
+.contacto img {
+    width: 20%;
+    height: 70%;
+    border-radius: 85%;
+    box-shadow: 3px 5px 5px rgb(190, 81, 81);
+    position:relative;
+    justify-content: center;
+  margin-left: 35%;
+  margin-top: 3%;
+}
+.contacto img:hover{
+    box-shadow: 5px 1px 5px 0px rgb(66, 237, 53);
+}
+ /**fin de footer/
+ /*revisar  ->*/
+ /**cada cuadro de mis habilidades. podria ponerle un border  en mov**/
 .front {
     border: #000022;
     border-style: solid;
@@ -370,7 +451,34 @@ html {
     align-items: center;
     opacity: 0;
 }
-
+.modal-container6 {
+    position: fixed;
+    visibility: hidden;
+    z-index: 1000;
+    width: 90%;
+    height: 90vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.modal-container7 {
+    position: fixed;
+    visibility: hidden;
+    z-index: 1000;
+    width: 90%;
+    height: 90vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
 
 .cta {
     display: inline-block;
@@ -415,6 +523,26 @@ html {
     background: #fff;
 }
 .ctaj8 {
+    display: inline-block;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #283773;
+    background: #fff;
+}
+.cta6 {
+    display: inline-block;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #283773;
+    background: #fff;
+}
+.cta7 {
     display: inline-block;
     padding: 0%;
     width: 100%;
@@ -501,26 +629,8 @@ html {
     margin-bottom: 3%;
 }
 
-.contacto {
-    width: 85%;
-    height: 100%;
 
-}
 
-.contacto img {
-    width: 60%;
-    height: 60%;
-}
-
-.contenedorcontacto {
-    width: 75%;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-}
 
 .icono a img {
     width: 100%;
@@ -559,48 +669,6 @@ html {
     z-index: -1;
 }
 
-nav {
-    background: #ffffff;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
-.enlace {
-    position: absolute;
-    padding: 0px 0px;
-}
-
-.logo {
-    height: 60px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: rgb(14, 12, 12);
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-li a:active,
-li a:hover {
-    background: #000090;
-    transition: .5s;
-    color: #fff;
-}
 
 .checkbtn {
     font-size: 20px;
